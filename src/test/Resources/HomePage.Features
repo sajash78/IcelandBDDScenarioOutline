@@ -1,0 +1,12 @@
+Feature:
+  Scenario Outline: Multiple products
+    Given user is on the home page of iceland food website
+    When  user try to find multiple "<product>"
+    Then user should see all the relavent searched products.
+    Examples:
+    |product|
+    |crisps|
+    |Biscuits|
+    |petfood |
+
+
